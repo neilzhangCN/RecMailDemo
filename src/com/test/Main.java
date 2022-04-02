@@ -104,7 +104,7 @@ public class Main {
      */
     public static void parseMessage(Message... messages) throws MessagingException, IOException {
         if (messages == null || messages.length < 1)
-            throw new MessagingException("未找到要解析的邮件!");
+            throw new MessagingException("未找到要解析的邮件!!");
 
         // 解析所有邮件
         for (int i = 0, count = messages.length; i < count; i++) {
